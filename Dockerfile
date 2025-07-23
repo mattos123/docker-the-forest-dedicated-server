@@ -55,7 +55,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     ADMIN_PASSWORD=adminPasswordHere \
     SERVER_PASSWORD=serverPasswordHere
 
-VOLUME ["${GAME_PATH}"]
+
 
 EXPOSE 8766/udp 27015/udp 27016/udp
 
